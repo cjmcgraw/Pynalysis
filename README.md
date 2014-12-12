@@ -3,7 +3,7 @@ Pynalysis
 
 A framework for macroscopic algorithm runtime analysis.
 
-The standard method of analysing algorithms in the base Python library is via profiling([cProfile](https://docs.python.org/2/library/profile.html#module-cProfile)). Profiling is attempts to analyze a given algorithm and its bottlenecks. It provides very fine grain detail on a specific function/program and its execution time on a specific data set over multiple occurences.
+The standard method of analysing algorithms in the base Python library is via profiling([cProfile](https://docs.python.org/2/library/profile.html#module-cProfile)). Profiling attempts to analyze a given algorithm and its bottlenecks. It provides very fine grain detail on a specific function/program and its execution time on a specific data set over multiple occurences.
 
 This is extremely helpful. But sometimes you want to see not just multiple occurrences with the same data set, but multiple occurrences as the data set grows larger and larger. Potentially one may use **cProfile** to performt his, but it quickly becomes tedious.
 
