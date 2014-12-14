@@ -1,6 +1,6 @@
 import unittest
 from math import sqrt
-from src.stats import Statistics
+from src.statistics import Statistics
 
 class TestStatistics(unittest.TestCase):
 
